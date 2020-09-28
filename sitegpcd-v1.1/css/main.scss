@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    // background: #000 !important;
+    // color: #0f0 !important;
+    // outline: solid #f00 1px !important;
+}
+
+html,body
+{
+  width: 100% !important;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+.padding {
+  padding: 40px;
+
+  @media screen and (max-width: 992px){
+    padding: 40px;     
+  }
+}
+
+img {
+  user-select: none !important; 
+}
+
+@import 'navbar';
+@import 'carousel';
+@import 'about-us';
+@import 'what-we-do';
+@import 'tech';
+@import 'data-science';
+@import 'speechs';
+@import 'footer';

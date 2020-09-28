@@ -1,0 +1,53 @@
+.tech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  
+  .card {
+    max-width: 400px;
+    max-height: 600px;
+    padding: 20px 30px;
+    margin: 20px;
+    border: 1px solid #f0f0f0;
+    .tech-icon {
+      max-width: 250px;
+      padding: 10px;
+      
+      @media screen and (max-width: 992px){
+        max-width: 200px;
+      }
+    }
+    
+    .card-text {
+      max-width: 250px;
+      font-size: 14px;
+    }
+
+    .card-title {
+      letter-spacing: 1px;
+
+      @media screen and (max-width: 400px){
+        font-size: 1.4rem;
+      }
+    }
+
+    .theme-btn-default {
+      background-color: #fff;
+      border: 1px solid #f0f0f0;
+      color: #57646e;
+      margin-bottom: -100px;
+      transition: all .2s;
+      &:hover {
+        background-color: #353a3d;
+        border: 1px solid #353a3d;
+        color: #fff;
+      }
+  }
+  }
+
+  @media screen and (max-width: 992px){
+    margin-top: 25px;     
+  }
+}
